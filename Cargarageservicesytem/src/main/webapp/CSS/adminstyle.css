@@ -1,0 +1,36 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+.mycontainer{
+	width:100%;
+	height:100vh;
+}
+.adminsidebar{
+	width:20%;
+	height: 100vh;
+	
+}
+.menu ul li{
+	list-style-type: none;
+}
+.control{
+	width:400px;
+	height:40px;
+	border-radius: 10px;
+	
+	}
+	
+.formarea{
+	position:absolute;
+	left:500px;
+	top:100px;
+	
+}
+.col{
+	margin-top: 0;
+}
+
+

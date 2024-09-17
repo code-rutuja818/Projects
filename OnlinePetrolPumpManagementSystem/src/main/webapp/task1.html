@@ -1,0 +1,22 @@
+<html>
+  <head>
+   <title>web page with heading and button tag</title>
+  <style>
+     input{
+        width:200px;
+        height:40px;
+      }
+  </style>
+<script type='text/javascript'>
+    function show(){
+       var textBox=document.getElementById("txt");
+       var valueFromTextBox=textBox.value;
+	alert(valueFromTextBox);
+     }
+</script>
+  </head>
+ <body>
+    <input type='text' name='n' id='txt' value='' /><br><br>
+   <input type='button' name='s' value='submit' onclick="show()"/>
+ </body>
+</html>
